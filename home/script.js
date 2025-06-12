@@ -1,8 +1,8 @@
-const dog =  document.querySelector(".dog");
+const hamtop =  document.querySelector(".ham-top");
 const navMenu =  document.querySelector(".nav-menu");
 
-dog.addEventListener("click", () => {
-    dog.classList.toggle("active");
+hamtop.addEventListener("click", () => {
+    hamtop.classList.toggle("active");
     navMenu.classList.toggle("active");
 })
 
