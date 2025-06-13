@@ -194,7 +194,6 @@ a {
 
 .container_sobre {
     display: flex;
-    gap: 20px;
     max-width: 1200px;
     width: 100%;
     align-items: flex-start;
@@ -207,12 +206,11 @@ a {
 }
 
 .sobre-img {
-    width: 100%;   
-    max-width: 500px;       
-    height: auto;         
-    order: 2;              
+    width: 40%;
+    max-width: 180px;
+    height: auto;
     border-radius: 8px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .sobre-conteudo {
