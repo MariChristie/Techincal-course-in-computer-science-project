@@ -184,8 +184,7 @@ a {
 }
 
 .sobretotal {
-    background-color: rgb(131, 51, 51);
-    min-height: 100vh;
+    min-height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,16 +205,17 @@ a {
 }
 
 .sobre-img {
-    width: 40%;
-    max-width: 180px;
+    max-width: 400px;
     height: auto;
     border-radius: 8px;
     object-fit: contain;
+    order: 2;
+    
 }
 
 .sobre-conteudo {
     flex: 1;
-    max-width: 600px
+    max-width: 1200px
 }
 
 .title {
@@ -279,6 +279,66 @@ a {
     .title, .conteudo {
         max-width: 100%;
     }
+}
+
+.títulO-card {
+    margin-top: 350px;
+    height: 30px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: #b64e4e;
+
+}
+
+.gallery {
+    display: flex;
+    margin-top: 30px;
+    gap: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 20px;
+    background-color: #b64e4e;
+}
+
+
+.card {
+    width: 300px;    
+    flex-basis: 300px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.card_body {
+    padding: 4px 12px 8px;
+}
+
+.card_tittle {
+    height: 30px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.card_text {
+    margin-top: 20px;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    align-items: flex-start;
+    color: white;
+    font-size: 20px;
 }
 
 footer {
