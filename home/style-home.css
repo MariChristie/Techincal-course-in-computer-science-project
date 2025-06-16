@@ -232,7 +232,6 @@ a {
     padding: 0 20px;
 }
 
-
 .card_title {
     font-size: 40px;
     max-width: 1600px;
@@ -242,20 +241,17 @@ a {
 }
 
 .card_text {
-    font-size: 16px; 
+    font-size: 60px; 
     font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
     line-height: 1.5;
     max-width: 600px; 
 }
 
-.introducao-texto {
-    flex: 1;                
-    order: 1;              
-}
-
 .introducao-img {
-    width: 500px;          
+    flex: 2;
+    max-width: 1600px; 
+    width: 400px;          
     height: auto;         
     order: 2;              
     border-radius: 8px;
@@ -291,10 +287,11 @@ a {
 .detalhe {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 40px;
-    margin: 140px auto; 
+    gap: 50px;
+    margin: 400px auto; 
     padding: 0 20px;
     max-width: 1200px; 
+    height: auto;         
     justify-items: center; 
 }
 
